@@ -154,7 +154,6 @@ def approve_or_disapprove_user(message):
     bot.send_message(CHANNEL_ID, msg_text, parse_mode='Markdown')
 
 
-
 # Initialize attack flag, duration, and start time
 bot.attack_in_progress = False
 bot.attack_duration = 0  # Store the duration of the ongoing attack
