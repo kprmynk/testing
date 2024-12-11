@@ -1,4 +1,4 @@
-name: Run Soul Workflow
+name: Run testing Workflow
 
 on:
   push:
